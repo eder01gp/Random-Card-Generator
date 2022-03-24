@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.container {
+}
+.card-body {
+  font-size: 7em;
+}
+
+.botones {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Picas::before {
+  font-size: 4em;
+  content: "♠";
+  color: black;
+}
+
+.Corazones::before {
+  font-size: 4em;
+  content: "♥";
+  color: rgb(148, 40, 40);
+}
+
+.Treboles::before {
+  font-size: 4em;
+  content: "♣";
+  color: black;
+}
+
+.Rombos::before {
+  font-size: 4em;
+  content: "♦";
+  color: rgb(148, 40, 40);
+}
